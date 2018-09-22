@@ -9,7 +9,7 @@ require "ostruct"
 # I hope this is not a big deal, but it made the code more straight forward and clear to me.
 
 class Weather::Opts
-  FARADAY_WEATHER_ENDPOINT = "http://api.tiempo.com/index.php?api_lang=es&division=102&affiliate_id=zdo2c683olan"
+  FARADAY_WEATHER_ENDPOINT = "http://api.tiempo.com/index.php?api_lang=es&division=102"
   DEFAULT_CITY = "Barcelona"
   DEFAULT_METRIC = "today"
 
