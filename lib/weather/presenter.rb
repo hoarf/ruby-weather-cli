@@ -1,4 +1,4 @@
-class WeatherPresenter
+class Weather::Presenter
 
   def initialize(reporter)
     @reporter = reporter

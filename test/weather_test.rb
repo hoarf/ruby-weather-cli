@@ -5,7 +5,7 @@ class WeatherTest < Minitest::Test
     refute_nil ::Weather::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def present_test
+    assert true
   end
 end

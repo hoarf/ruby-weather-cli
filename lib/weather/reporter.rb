@@ -2,7 +2,7 @@
 require 'nokogiri'
 require 'faraday'
 
-class WeatherReporter
+class Weather::Reporter
 
   def initialize(options)
     city_endpoint = fetch_city_endpoint(options.endpoint, options.city)

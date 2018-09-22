@@ -8,7 +8,7 @@ require "ostruct"
 # it comes down to multiple optional arguments.
 # I hope this is not a big deal, but it made the code more straight forward and clear to me.
 
-class WeatherOpts
+class Weather::Opts
   FARADAY_WEATHER_ENDPOINT = "http://api.tiempo.com/index.php?api_lang=es&division=102&affiliate_id=zdo2c683olan"
   DEFAULT_CITY = "Barcelona"
   DEFAULT_METRIC = "today"
