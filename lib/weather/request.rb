@@ -7,6 +7,6 @@ class XMLRequest
   end
 
   def get
-    Faraday.get("#{@endpoint}&affiliate_id=zdo2c683olan").body
+    Faraday.get("#{@endpoint}&affiliate_id=").body
   end
 end
